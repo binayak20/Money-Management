@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.auth_form_container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	width: 20%;
+	min-width: 350px;
+	padding: 40px 30px;
+
+	transform: translate(-50%, -50%);
+
+	box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+}
+.auth_form_container.signup {
+	margin: 150px auto 50px;
+}
+.auth_form_logo{
+  text-align: center;
+}
